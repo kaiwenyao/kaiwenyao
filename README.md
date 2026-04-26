@@ -27,7 +27,11 @@ Here are some ideas to get you started:
 ### 📊 GitHub 数据
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=你的用户名&show_icons=true&theme=radium" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=kaiwenyao&show_icons=true&theme=radium" width="48%" />
   
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=你的用户名&layout=compact&theme=radium" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kaiwenyao&layout=compact&theme=radium" width="48%" />
 </div>
+
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=F71181&width=435&lines=👨‍💻+专注于+DevOps+与前端开发;🚀+热衷于自动化构建与部署;💡+一直在学习新技术的路上" alt="Typing SVG" />
+</a>
