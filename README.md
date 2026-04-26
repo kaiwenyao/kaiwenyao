@@ -31,9 +31,10 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kaiwenyao&layout=compact&theme=tokyonight&hide_border=false&cache_seconds=86400&v=2" height="160" />
 </p>
 
-<p align="center">
+<!-- <p align="center">
   <img src="https://streak-stats.demolab.com?user=kaiwenyao&theme=tokyonight&hide_border=false&cache_seconds=86400&v=2" width="88%" />
-</p>
+</p> -->
+
 
 <p align="left">
   <picture>
