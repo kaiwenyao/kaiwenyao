@@ -19,7 +19,7 @@
 
 <p align="left">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=F71181&width=500&lines=👨‍💻+全栈+工程师+%7C+DevOps+专家;🚀+自动化构建+与+部署+专家;💡+开源维护者+%7C+持续学习者;🔧+React+%7C+Spring+Boot+%7C+Docker+%7C+Jenkins" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=F71181&width=500&v=3&lines=👨‍💻+全栈+工程师+%7C+DevOps+专家;🚀+自动化构建+与+部署+专家;💡+开源维护者+%7C+持续学习者;🔧+React+%7C+Spring+Boot+%7C+Docker+%7C+Jenkins" alt="Typing SVG" />
   </a>
 </p>
 
