@@ -1,0 +1,38 @@
+name: Generate Snake Contribution Graph
+
+on:
+  # Run automatically every day at 00:00 UTC
+  schedule:
+    - cron: "0 0 * * *"
+  # Allow manual trigger
+  workflow_dispatch:
+  # Run on push to main branch
+  push:
+    branches:
+      - main
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate GitHub Contribution Snake
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+
+      - name: Push generated files to output branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: output
+          keep_files: false

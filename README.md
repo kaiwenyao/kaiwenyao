@@ -106,6 +106,14 @@
   <img src="https://streak-stats.demolab.com?user=kaiwenyao&theme=tokyonight&hide_border=false&cache_seconds=86400&v=2" width="98%" />
 </p>
 
+<p align="left">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kaiwenyao/kaiwenyao/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kaiwenyao/kaiwenyao/output/github-snake.svg" />
+    <img alt="github-snake" src="https://raw.githubusercontent.com/kaiwenyao/kaiwenyao/output/github-snake.svg" />
+  </picture>
+</p>
+
 ---
 
 ### 🔗 常用链接
