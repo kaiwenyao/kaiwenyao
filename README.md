@@ -19,7 +19,7 @@
 
 <p align="left">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=F71181&width=500&lines=👨‍💻+资深+DevOps+工程师+%7C+前端开发者;🚀+自动化构建+与+部署+专家;💡+开源维护者+%7C+持续学习者;🔧+Jenkins+%7C+Docker+%7C+Traefik+%7C+Node.js" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=F71181&width=500&lines=👨‍💻+全栈+工程师+%7C+DevOps+专家;🚀+自动化构建+与+部署+专家;💡+开源维护者+%7C+持续学习者;🔧+React+%7C+Spring+Boot+%7C+Docker+%7C+Jenkins" alt="Typing SVG" />
   </a>
 </p>
 
@@ -36,8 +36,9 @@
 
 ### 🚀 关于我
 
-> 一名热衷于 **DevOps 自动化** 与 **前端开发** 的工程师，专注于构建高效的 CI/CD 流水线、云原生部署方案以及优雅的 Web 应用。同时积极参与开源社区维护与贡献。
+> 一名热衷于 **全栈开发** 与 **DevOps 自动化** 的工程师，专注于构建端到端的高性能应用、高效的 CI/CD 流水线以及云原生部署方案。同时积极参与开源社区维护与贡献。
 
+- 🖥️ 全栈开发经验丰富：**React 19 / Vue 3** 前端 + **Spring Boot / Flask / Go** 后端
 - 🔧 擅长搭建 **Jenkins Multibranch Pipeline** 与 **Jenkinsfile** 驱动的自动化工作流
 - 🐳 精通 **Docker** 单机容器化部署与运维
 - 🌐 熟练使用 **Traefik** 实现基于 Docker Label 的自动服务发现与动态路由
@@ -48,6 +49,20 @@
 ---
 
 ### 🛠 技能栈
+
+#### 🖥️ 前端
+
+[![][badge-react]][react-url]
+[![][badge-vue]][vue-url]
+[![][badge-typescript]][typescript-url]
+[![][badge-astro]][astro-url]
+
+#### ⚙️ 后端
+
+[![][badge-java]][java-url]
+[![][badge-spring]][spring-url]
+[![][badge-python]][python-url]
+[![][badge-go]][go-url]
 
 #### 🚀 DevOps & CI/CD
 
@@ -61,7 +76,7 @@
 [![][badge-pnpm]][pnpm-url]
 [![][badge-npx]][npx-url]
 
-#### 🛠️ 工具 & 自动化
+#### 🛠️ 工具 & 协作
 
 [![][badge-git]][git-url]
 [![][badge-github]][github-url]
@@ -100,6 +115,30 @@
 
 <!-- ==================== Badge 引用定义区 ==================== -->
 <!-- 使用 Reference-Style 链接保持正文整洁，修改此处即可全局更新 -->
+
+[badge-react]: https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black
+[react-url]: https://react.dev
+
+[badge-vue]: https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white
+[vue-url]: https://vuejs.org
+
+[badge-typescript]: https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white
+[typescript-url]: https://www.typescriptlang.org
+
+[badge-astro]: https://img.shields.io/badge/Astro-BC52EE?style=for-the-badge&logo=astro&logoColor=white
+[astro-url]: https://astro.build
+
+[badge-java]: https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white
+[java-url]: https://www.java.com
+
+[badge-spring]: https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white
+[spring-url]: https://spring.io/projects/spring-boot
+
+[badge-python]: https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white
+[python-url]: https://www.python.org
+
+[badge-go]: https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white
+[go-url]: https://go.dev
 
 [badge-jenkins]: https://img.shields.io/badge/Jenkins-D33833?style=for-the-badge&logo=jenkins&logoColor=white
 [jenkins-url]: https://www.jenkins.io
