@@ -26,10 +26,8 @@ Here are some ideas to get you started:
 
 ### 📊 GitHub 数据
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=kaiwenyao&show_icons=true&theme=radium" width="48%" />
-  
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kaiwenyao&layout=compact&theme=radium" width="48%" />
+<div align="center">  
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kaiwenyao&layout=compact&theme=radium&v=1" width="48%" />
 </div>
 
 <a href="https://git.io/typing-svg">
