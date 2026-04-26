@@ -15,8 +15,6 @@
   - Badge 颜色参考：https://shields.io/badges
 -->
 
-## Hi there 👋
-
 <p align="left">
   <a href="https://git.io/typing-svg">
     <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=F71181&width=500&v=3&lines=👨‍💻+全栈+工程师+%7C+DevOps+专家;🚀+自动化构建+与+部署+专家;💡+开源维护者+%7C+持续学习者;🔧+React+%7C+Spring+Boot+%7C+Docker+%7C+Jenkins" alt="Typing SVG" />
@@ -39,7 +37,7 @@
 > 一个喜欢折腾代码、热衷构建完整产品的人。我相信好的软件不只是能跑，还要好维护、好部署、好迭代。
 
 - 🖥️ **全栈选手**：React / Vue 写界面，Spring Boot / FastAPI / Go / Flask 写接口，从数据库到浏览器一条龙
-- 🔐 **认证安全**：JWT 双令牌、刷新机制、密码加密（BCrypt）、黑名单登出、短信/邮件验证码都折腾过
+- 🔐 **认证安全**：JWT 双令牌、刷新机制、密码加密（BCrypt）、短信/邮件验证码都折腾过
 - 🐳 **DevOps 爱好者**：Jenkins 搭流水线，Docker 打镜像，云原生部署一条龙；也玩过阿里云云效 CI/CD
 - 🤖 **AI 集成**：LangChain 接大模型、SSE 流式推送、Random Forest 做预测，让 AI 真的跑在业务里
 - ⚡ **性能优化**：Redis 缓存、Spring Cache、路由懒加载、游标分页，能省的资源绝不浪费
@@ -62,7 +60,6 @@
 [![][badge-spring]][spring-url]
 [![][badge-python]][python-url]
 [![][badge-go]][go-url]
-[![][badge-mybatis]][mybatis-url]
 
 #### 🚀 DevOps & CI/CD
 
@@ -71,17 +68,10 @@
 [![][badge-mysql]][mysql-url]
 [![][badge-redis]][redis-url]
 
-#### ⚡ 其他技能
-
-[![][badge-cpp]][cpp-url]
-[![][badge-unity]][unity-url]
-[![][badge-pytorch]][pytorch-url]
-
 #### 🛠️ 工具 & 协作
 
 [![][badge-git]][git-url]
 [![][badge-github]][github-url]
-[![][badge-gitlab]][gitlab-url]
 
 ---
 
@@ -114,11 +104,6 @@
   </picture>
 </p>
 
----
-
-### 🔗 常用链接
-
-[![][badge-homepage]][github-profile]
 
 ---
 
