@@ -25,21 +25,15 @@
   v=2 为缓存清除参数，更新后递增此值可强制刷新
 -->
 
-<table>
-  <tr>
-    <td>
-      <img src="https://github-readme-stats.vercel.app/api?username=kaiwenyao&theme=tokyonight&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&cache_seconds=86400&v=2" width="100%" />
-    </td>
-    <td>
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kaiwenyao&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=86400&v=2" width="100%" />
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2">
-      <img src="https://streak-stats.demolab.com?user=kaiwenyao&theme=tokyonight&hide_border=true&cache_seconds=86400&v=2" width="100%" />
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=kaiwenyao&theme=tokyonight&show_icons=true&include_all_commits=true&count_private=true&hide_border=false&cache_seconds=86400&v=2" height="160" />
+  &nbsp;
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kaiwenyao&layout=compact&theme=tokyonight&hide_border=false&cache_seconds=86400&v=2" height="160" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=kaiwenyao&theme=tokyonight&hide_border=false&cache_seconds=86400&v=2" width="96%" />
+</p>
 
 <p align="left">
   <picture>
