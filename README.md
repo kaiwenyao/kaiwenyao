@@ -26,13 +26,13 @@
 -->
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=kaiwenyao&theme=tokyonight&show_icons=true&include_all_commits=true&count_private=true&hide_border=false&cache_seconds=86400&v=2" height="160" />
+  <img src="https://github-readme-stats.vercel.app/api?username=kaiwenyao&theme=tokyonight&show_icons=true&include_all_commits=true&count_private=true&hide_border=false&cache_seconds=86400&v=2" height="180" />
   &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kaiwenyao&layout=compact&theme=tokyonight&hide_border=false&cache_seconds=86400&v=2" height="160" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kaiwenyao&layout=compact&theme=tokyonight&hide_border=false&cache_seconds=86400&v=2" height="180" />
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=kaiwenyao&theme=tokyonight&hide_border=false&cache_seconds=86400&v=2" width="96%" />
+  <img src="https://streak-stats.demolab.com?user=kaiwenyao&theme=tokyonight&hide_border=false&cache_seconds=86400&v=2" width="88%" />
 </p>
 
 <p align="left">
