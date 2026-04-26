@@ -36,15 +36,14 @@
 
 ### 🚀 关于我
 
-> 一名热衷于 **全栈开发** 与 **DevOps 自动化** 的工程师，专注于构建端到端的高性能应用、高效的 CI/CD 流水线以及云原生部署方案。同时积极参与开源社区维护与贡献。
+> 一个喜欢折腾代码、热衷构建完整产品的人。我相信好的软件不只是能跑，还要好维护、好部署、好迭代。
 
-- 🖥️ 全栈开发经验丰富：**React 19 / Vue 3** 前端 + **Spring Boot / Flask / Go** 后端
-- 🔧 擅长搭建 **Jenkins Multibranch Pipeline** 与 **Jenkinsfile** 驱动的自动化工作流
-- 🐳 精通 **Docker** 单机容器化部署与运维
-- 🌐 熟练使用 **Traefik** 实现基于 Docker Label 的自动服务发现与动态路由
-- 🚀 擅长为每个 PR 构建 **Preview Environments (Review Apps)**，绑定基于 Commit ID 的动态子域名
-- 🤖 熟悉通过 Jenkins 调用 GitHub/GitLab API，在 PR 中通过 Bot 自动回复部署状态与访问链接
-- ⚡ **Node.js** 生态深度用户，**pnpm** 忠实拥护者
+- 🖥️ **全栈选手**：React / Vue 写界面，Spring Boot / FastAPI / Go / Flask 写接口，从数据库到浏览器一条龙
+- 🔐 **认证安全**：JWT 双令牌、刷新机制、密码加密（BCrypt）、黑名单登出、短信/邮件验证码都折腾过
+- 🐳 **DevOps 爱好者**：Jenkins 搭流水线，Docker 打镜像，云原生部署一条龙；也玩过阿里云云效 CI/CD
+- 🤖 **AI 集成**：LangChain 接大模型、SSE 流式推送、Random Forest 做预测，让 AI 真的跑在业务里
+- ⚡ **性能优化**：Redis 缓存、Spring Cache、路由懒加载、游标分页，能省的资源绝不浪费
+- 🧪 **代码质量**：单元测试、集成测试（testcontainers-go）、SonarQube 静态分析，CI 不过不合并
 
 ---
 
@@ -55,7 +54,7 @@
 [![][badge-react]][react-url]
 [![][badge-vue]][vue-url]
 [![][badge-typescript]][typescript-url]
-[![][badge-astro]][astro-url]
+[![][badge-tailwind]][tailwind-url]
 
 #### ⚙️ 后端
 
@@ -63,18 +62,20 @@
 [![][badge-spring]][spring-url]
 [![][badge-python]][python-url]
 [![][badge-go]][go-url]
+[![][badge-mybatis]][mybatis-url]
 
 #### 🚀 DevOps & CI/CD
 
 [![][badge-jenkins]][jenkins-url]
 [![][badge-docker]][docker-url]
-[![][badge-traefik]][traefik-url]
+[![][badge-mysql]][mysql-url]
+[![][badge-redis]][redis-url]
 
-#### ⚡ Node.js 生态
+#### ⚡ 其他技能
 
-[![][badge-nodejs]][nodejs-url]
-[![][badge-pnpm]][pnpm-url]
-[![][badge-npx]][npx-url]
+[![][badge-cpp]][cpp-url]
+[![][badge-unity]][unity-url]
+[![][badge-pytorch]][pytorch-url]
 
 #### 🛠️ 工具 & 协作
 
@@ -125,8 +126,8 @@
 [badge-typescript]: https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white
 [typescript-url]: https://www.typescriptlang.org
 
-[badge-astro]: https://img.shields.io/badge/Astro-BC52EE?style=for-the-badge&logo=astro&logoColor=white
-[astro-url]: https://astro.build
+[badge-tailwind]: https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white
+[tailwind-url]: https://tailwindcss.com
 
 [badge-java]: https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white
 [java-url]: https://www.java.com
@@ -146,17 +147,23 @@
 [badge-docker]: https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white
 [docker-url]: https://www.docker.com
 
-[badge-traefik]: https://img.shields.io/badge/Traefik-24A1C1?style=for-the-badge&logo=traefikproxy&logoColor=white
-[traefik-url]: https://traefik.io
+[badge-mybatis]: https://img.shields.io/badge/MyBatis%20Plus-FF6B6B?style=for-the-badge&logo=mybatis&logoColor=white
+[mybatis-url]: https://baomidou.com
 
-[badge-nodejs]: https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white
-[nodejs-url]: https://nodejs.org
+[badge-mysql]: https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white
+[mysql-url]: https://www.mysql.com
 
-[badge-pnpm]: https://img.shields.io/badge/pnpm-F69220?style=for-the-badge&logo=pnpm&logoColor=white
-[pnpm-url]: https://pnpm.io
+[badge-redis]: https://img.shields.io/badge/Redis-FF4438?style=for-the-badge&logo=redis&logoColor=white
+[redis-url]: https://redis.io
 
-[badge-npx]: https://img.shields.io/badge/npx-CB3837?style=for-the-badge&logo=npm&logoColor=white
-[npx-url]: https://www.npmjs.com/package/npx
+[badge-cpp]: https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white
+[cpp-url]: https://isocpp.org
+
+[badge-unity]: https://img.shields.io/badge/Unity3D-000000?style=for-the-badge&logo=unity&logoColor=white
+[unity-url]: https://unity.com
+
+[badge-pytorch]: https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white
+[pytorch-url]: https://pytorch.org
 
 [badge-git]: https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white
 [git-url]: https://git-scm.com
