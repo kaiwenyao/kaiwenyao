@@ -23,3 +23,11 @@ Here are some ideas to get you started:
   <img src="https://img.shields.io/badge/jenkins-%232C5263.svg?style=for-the-badge&logo=jenkins&logoColor=white" />
   <img src="https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white" />
 </p>
+
+### 📊 GitHub 数据
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=你的用户名&show_icons=true&theme=radium" width="48%" />
+  
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=你的用户名&layout=compact&theme=radium" width="48%" />
+</div>
