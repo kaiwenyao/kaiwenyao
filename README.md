@@ -15,6 +15,34 @@
   - Badge 颜色参考：https://shields.io/badges
 -->
 
+<!-- 
+  Stats Cards 使用 github-readme-stats 公共实例。
+  如遇加载缓慢或 500 错误，建议自建 Vercel 实例：
+  1. Fork https://github.com/anuraghazra/github-readme-stats
+  2. 导入 Vercel 并配置 PAT 环境变量
+  3. 将 vercel.app 域名替换为你的自定义域名
+  
+  v=2 为缓存清除参数，更新后递增此值可强制刷新
+-->
+
+<p align="left">
+  <img src="https://github-readme-stats.vercel.app/api?username=kaiwenyao&theme=tokyonight&show_icons=true&include_all_commits=true&count_private=true&hide_border=false&cache_seconds=86400&v=2" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kaiwenyao&layout=compact&theme=tokyonight&hide_border=false&cache_seconds=86400&v=2" width="48%" />
+</p>
+
+<p align="left">
+  <img src="https://streak-stats.demolab.com?user=kaiwenyao&theme=tokyonight&hide_border=false&cache_seconds=86400&v=2" width="98%" />
+</p>
+
+<p align="left">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kaiwenyao/kaiwenyao/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kaiwenyao/kaiwenyao/output/github-snake.svg" />
+    <img alt="github-snake" src="https://raw.githubusercontent.com/kaiwenyao/kaiwenyao/output/github-snake.svg" />
+  </picture>
+</p>
+
+
 <p align="left">
   <a href="https://git.io/typing-svg">
     <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=F71181&width=500&v=3&lines=👨‍💻+全栈+工程师+%7C+DevOps+专家;🚀+自动化构建+与+部署+专家;💡+开源维护者+%7C+持续学习者;🔧+React+%7C+Spring+Boot+%7C+Docker+%7C+Jenkins" alt="Typing SVG" />
@@ -23,14 +51,6 @@
 
 ---
 
-### 📑 目录
-
-- [🚀 关于我](#-关于我)
-- [🛠 技能栈](#-技能栈)
-- [📊 GitHub 数据](#-github-数据)
-- [🔗 常用链接](#-常用链接)
-
----
 
 ### 🚀 关于我
 
@@ -75,34 +95,6 @@
 
 ---
 
-### 📊 GitHub 数据
-
-<!-- 
-  Stats Cards 使用 github-readme-stats 公共实例。
-  如遇加载缓慢或 500 错误，建议自建 Vercel 实例：
-  1. Fork https://github.com/anuraghazra/github-readme-stats
-  2. 导入 Vercel 并配置 PAT 环境变量
-  3. 将 vercel.app 域名替换为你的自定义域名
-  
-  v=2 为缓存清除参数，更新后递增此值可强制刷新
--->
-
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=kaiwenyao&theme=tokyonight&show_icons=true&include_all_commits=true&count_private=true&hide_border=false&cache_seconds=86400&v=2" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kaiwenyao&layout=compact&theme=tokyonight&hide_border=false&cache_seconds=86400&v=2" width="48%" />
-</p>
-
-<p align="left">
-  <img src="https://streak-stats.demolab.com?user=kaiwenyao&theme=tokyonight&hide_border=false&cache_seconds=86400&v=2" width="98%" />
-</p>
-
-<p align="left">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kaiwenyao/kaiwenyao/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kaiwenyao/kaiwenyao/output/github-snake.svg" />
-    <img alt="github-snake" src="https://raw.githubusercontent.com/kaiwenyao/kaiwenyao/output/github-snake.svg" />
-  </picture>
-</p>
 
 
 ---
