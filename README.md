@@ -26,9 +26,9 @@
 -->
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=kaiwenyao&theme=tokyonight&show_icons=true&include_all_commits=true&count_private=true&hide_border=false&cache_seconds=86400&v=2" height="180" />
+  <img src="https://github-readme-stats.vercel.app/api?username=kaiwenyao&theme=tokyonight&show_icons=true&include_all_commits=true&count_private=true&hide_border=false&cache_seconds=86400&v=2" height="160" />
   &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kaiwenyao&layout=compact&theme=tokyonight&hide_border=false&cache_seconds=86400&v=2" height="180" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kaiwenyao&layout=compact&theme=tokyonight&hide_border=false&cache_seconds=86400&v=2" height="160" />
 </p>
 
 <p align="center">
