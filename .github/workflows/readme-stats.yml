@@ -1,0 +1,45 @@
+# https://github.com/anuraghazra/github-readme-stats#deploy-on-your-own （GitHub Actions）
+# Action: https://github.com/readme-tools/github-readme-stats-action
+#
+# 需要私有仓库计入统计：Settings → Secrets → Actions 中添加 README_STATS_PAT
+# （classic：`repo`、`read:user`）。未配置则使用 GITHUB_TOKEN，仅公开仓库数据。
+
+name: Update README stats cards
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate GitHub stats card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: stats
+          options: "username=${{ github.repository_owner }}&theme=tokyonight&show_icons=true&include_all_commits=true&count_private=true&hide_border=false"
+          path: profile/github-stats.svg
+          token: ${{ secrets.README_STATS_PAT || secrets.GITHUB_TOKEN }}
+
+      - name: Generate Top Languages card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: top-langs
+          options: "username=${{ github.repository_owner }}&layout=compact&theme=tokyonight&hide_border=false"
+          path: profile/top-langs.svg
+          token: ${{ secrets.README_STATS_PAT || secrets.GITHUB_TOKEN }}
+
+      - name: Commit cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/github-stats.svg profile/top-langs.svg
+          git commit -m "chore: update README stats cards" || exit 0
+          git push

@@ -2,11 +2,10 @@
   GitHub Profile README for kaiwenyao
   Theme: tokyonight (暗色极客风)
   
-  ⚠️ 重要提示：github-readme-stats 的 count_private=true 参数需要配置 GitHub Personal Access Token
-     才能统计私有仓库数据。配置方法：
-     1. 访问 https://github.com/settings/tokens 生成 Token (需要 repo 权限)
-     2. 推荐自建 Vercel 实例部署 github-readme-stats，将 Token 设为环境变量
-     3. 参考文档：https://github.com/anuraghazra/github-readme-stats#deploy-on-your-own
+  ⚠️ Stats 卡片：由 GitHub Actions 生成 profile/*.svg。若需私有仓库计入统计，在 profile 仓库的
+     Settings → Secrets → Actions 添加 README_STATS_PAT（classic：repo、read:user）。
+     首次 push 后请到 Actions 手动运行一次「Update README stats cards」以生成 SVG。
+     文档：https://github.com/anuraghazra/github-readme-stats#deploy-on-your-own
   
   自定义指南：
   - 修改打字机文案：编辑 readme-typing-svg 的 lines 参数，用分号 ; 分隔多行
@@ -16,19 +15,15 @@
 -->
 
 <!-- 
-  Stats Cards 使用 github-readme-stats 公共实例。
-  如遇加载缓慢或 500 错误，建议自建 Vercel 实例：
-  1. Fork https://github.com/anuraghazra/github-readme-stats
-  2. 导入 Vercel 并配置 PAT 环境变量
-  3. 将 vercel.app 域名替换为你的自定义域名
-  
-  v=2 为缓存清除参数，更新后递增此值可强制刷新
+  Stats Cards 由仓库内 SVG 静态文件展示（详见 .github/workflows/readme-stats.yml）。
+  • 定时每日 UTC 03:00 更新，也可 Actions 里手动运行「Update README stats cards」。
+  • 私有仓库统计：在仓库 Secrets 中添加 README_STATS_PAT（classic：repo + read:user）。
 -->
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=kaiwenyao&theme=tokyonight&show_icons=true&include_all_commits=true&count_private=true&hide_border=false&cache_seconds=86400&v=2" height="160" />
+  <img src="./profile/github-stats.svg" height="160" alt="GitHub stats" />
   &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kaiwenyao&layout=compact&theme=tokyonight&hide_border=false&cache_seconds=86400&v=2" height="160" />
+  <img src="./profile/top-langs.svg" height="160" alt="Top languages" />
 </p>
 
 <!-- <p align="center">
