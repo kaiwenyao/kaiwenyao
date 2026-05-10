@@ -7,6 +7,14 @@
 name: Update README stats cards
 
 on:
+  # 合并到默认分支后立即执行；scheduled / workflow_dispatch 也要求工作流在 default branch 才会出现在 Actions 并可运行
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/readme-stats.yml"
+      - "README.md"
+      - "profile/**"
   schedule:
     - cron: "0 3 * * *"
   workflow_dispatch:
