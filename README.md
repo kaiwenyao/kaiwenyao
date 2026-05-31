@@ -42,7 +42,7 @@
 
 <p align="left">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=F71181&width=500&v=3&lines=👨‍💻+全栈+工程师+%7C+DevOps+专家;🚀+自动化构建+与+部署+专家;💡+开源维护者+%7C+持续学习者;🔧+React+%7C+Spring+Boot+%7C+Docker+%7C+Jenkins" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=F71181&width=620&v=4&lines=🎓+MSc+Computer+Science+@+UCD;👨‍💻+Backend+%26+Full-Stack+Developer;🚀+Java+%7C+Spring+Boot+%7C+Go+%7C+FastAPI;🔧+React+%7C+TypeScript+%7C+Docker+%7C+Jenkins" alt="Typing SVG" />
   </a>
 </p>
 
@@ -51,14 +51,14 @@
 
 ### 🚀 关于我
 
-> 一个喜欢折腾代码、热衷构建完整产品的人。我相信好的软件不只是能跑，还要好维护、好部署、好迭代。
+> UCD 计算机科学硕士在读，工程背景转向软件开发。喜欢把复杂需求拆成清晰可靠的 API、数据流程和可维护的产品系统。
 
-- 🖥️ **全栈选手**：React / Vue 写界面，Spring Boot / FastAPI / Go / Flask 写接口，从数据库到浏览器一条龙
-- 🔐 **认证安全**：JWT 双令牌、刷新机制、密码加密（BCrypt）、短信/邮件验证码都折腾过
-- 🐳 **DevOps 爱好者**：Jenkins 搭流水线，Docker 打镜像，云原生部署一条龙；也玩过阿里云云效 CI/CD
-- 🤖 **AI 集成**：LangChain 接大模型、SSE 流式推送、Random Forest 做预测，让 AI 真的跑在业务里
-- ⚡ **性能优化**：Redis 缓存、Spring Cache、路由懒加载、游标分页，能省的资源绝不浪费
-- 🧪 **代码质量**：单元测试、集成测试（testcontainers-go）、SonarQube 静态分析，CI 不过不合并
+- 🖥️ **后端与全栈开发**：Java / Spring Boot、Go / Gin、Python / FastAPI、React / TypeScript 都在真实项目里用过
+- 🗄️ **数据与服务设计**：MySQL、PostgreSQL、Redis、JPA、MyBatis Plus、SQLAlchemy，关注接口边界、数据模型和可维护性
+- 🔐 **认证与安全**：JWT access/refresh、token version/logout invalidation、Redis token blacklist、短信/邮件验证码、BCrypt
+- 🤖 **AI 与数据产品**：LangChain + DeepSeek、SSE 流式响应、scikit-learn 预测服务、实时数据采集与可视化
+- 🐳 **交付与自动化**：Jenkins、Docker、nginx、Alibaba Cloud Yunxiao，用 CI/CD 把构建、测试、镜像和部署串起来
+- 🧪 **工程质量**：单元测试、集成测试、testcontainers-go、Flyway/Alembic 迁移，尽量让系统可验证、可演进
 
 ---
 
@@ -83,6 +83,7 @@
 [![][badge-jenkins]][jenkins-url]
 [![][badge-docker]][docker-url]
 [![][badge-mysql]][mysql-url]
+[![][badge-postgresql]][postgresql-url]
 [![][badge-redis]][redis-url]
 
 #### 🛠️ 工具 & 协作
@@ -132,17 +133,14 @@
 [badge-mysql]: https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white
 [mysql-url]: https://www.mysql.com
 
+[badge-postgresql]: https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white
+[postgresql-url]: https://www.postgresql.org
+
 [badge-redis]: https://img.shields.io/badge/Redis-FF4438?style=for-the-badge&logo=redis&logoColor=white
 [redis-url]: https://redis.io
 
 [badge-cpp]: https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white
 [cpp-url]: https://isocpp.org
-
-[badge-unity]: https://img.shields.io/badge/Unity3D-000000?style=for-the-badge&logo=unity&logoColor=white
-[unity-url]: https://unity.com
-
-[badge-pytorch]: https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white
-[pytorch-url]: https://pytorch.org
 
 [badge-git]: https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white
 [git-url]: https://git-scm.com
