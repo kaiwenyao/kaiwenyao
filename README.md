@@ -27,10 +27,6 @@
   <img src="./profile/top-langs.svg" height="160" alt="Top languages" />
 </p>
 
-<p align="center">
-  <img src="https://leetcard.jacoblin.cool/kaiwenyao?theme=tokyonight&font=Fira+Code&ext=heatmap" height="200" alt="LeetCode stats" />
-</p>
-
 <!-- <p align="center">
   <img src="https://streak-stats.demolab.com?user=kaiwenyao&theme=tokyonight&hide_border=false&cache_seconds=86400&v=2" width="88%" />
 </p> -->
