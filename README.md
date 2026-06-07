@@ -24,7 +24,7 @@
 <p align="center">
   <img src="./profile/github-stats.svg" height="160" alt="GitHub stats" />
   &nbsp;
-  <img src="./profile/top-langs.svg" height="160" alt="Top languages" />
+  <img src="https://leetcard.jacoblin.cool/kaiwenyao?theme=tokyonight&font=Fira+Code" height="160" alt="LeetCode stats" />
 </p>
 
 <!-- <p align="center">
