@@ -54,7 +54,7 @@
 
 > MSc Computer Science student at University College Dublin with an engineering background and a focus on software development. I enjoy turning complex requirements into reliable APIs, data flows, and maintainable product systems.
 
-- 🖥️ **Backend & full-stack development**: Java / Spring Boot, Go / Gin, Python / FastAPI, and React / Next.js / TypeScript across production-style projects
+- 🖥️ **Backend & full-stack development**: Java / Spring Boot, Go / Gin, Python / FastAPI, and React / Vue / Next.js / TypeScript across production-style projects
 - 🗄️ **Data & service design**: MySQL, PostgreSQL, Redis, JPA, MyBatis Plus, and SQLAlchemy, with attention to API boundaries, data models, and maintainability
 - 🔐 **Authentication & security**: JWT access/refresh flows, token-version logout invalidation, Redis token blacklisting, SMS/email verification, and BCrypt
 - 🤖 **AI & data products**: LangChain + DeepSeek, SSE streaming, scikit-learn prediction services, real-time data ingestion, and visualization
@@ -86,6 +86,7 @@
 #### 🖥️ Frontend
 
 [![][badge-react]][react-url]
+[![][badge-vue]][vue-url]
 [![][badge-nextjs]][nextjs-url]
 [![][badge-tailwind]][tailwind-url]
 
@@ -109,6 +110,9 @@
 
 [badge-react]: https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black
 [react-url]: https://react.dev
+
+[badge-vue]: https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white
+[vue-url]: https://vuejs.org
 
 [badge-typescript]: https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white
 [typescript-url]: https://www.typescriptlang.org
