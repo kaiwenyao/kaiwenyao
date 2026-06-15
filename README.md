@@ -54,43 +54,52 @@
 
 > MSc Computer Science student at University College Dublin with an engineering background and a focus on software development. I enjoy turning complex requirements into reliable APIs, data flows, and maintainable product systems.
 
-- 🖥️ **Backend & full-stack development**: Java / Spring Boot, Go / Gin, Python / FastAPI, React / TypeScript across production-style projects
+- 🖥️ **Backend & full-stack development**: Java / Spring Boot, Go / Gin, Python / FastAPI, and React / Next.js / TypeScript across production-style projects
 - 🗄️ **Data & service design**: MySQL, PostgreSQL, Redis, JPA, MyBatis Plus, and SQLAlchemy, with attention to API boundaries, data models, and maintainability
 - 🔐 **Authentication & security**: JWT access/refresh flows, token-version logout invalidation, Redis token blacklisting, SMS/email verification, and BCrypt
 - 🤖 **AI & data products**: LangChain + DeepSeek, SSE streaming, scikit-learn prediction services, real-time data ingestion, and visualization
-- 🐳 **Delivery & automation**: Jenkins, Docker, nginx, and Alibaba Cloud Yunxiao for build, test, image, and deployment pipelines
-- 🧪 **Engineering quality**: unit tests, integration tests, testcontainers-go, Flyway/Alembic migrations, and systems that are easier to verify and evolve
+- 🐳 **Delivery & automation**: Docker, Kubernetes, Jenkins, Maven, and Alibaba Cloud Yunxiao for build, test, image, and deployment pipelines
+- 🧪 **Engineering quality**: unit tests, integration tests, testcontainers-go, Flyway migrations, and systems that are easier to verify and evolve
 
 ---
 
 ### 🛠 Tech Stack
 
-#### 🖥️ Frontend
+#### 💻 Languages
 
-[![][badge-react]][react-url]
-[![][badge-vue]][vue-url]
+[![][badge-java]][java-url]
+[![][badge-go]][go-url]
 [![][badge-typescript]][typescript-url]
-[![][badge-tailwind]][tailwind-url]
+[![][badge-python]][python-url]
+[![][badge-cpp]][cpp-url]
+[![][badge-sql]][sql-url]
 
 #### ⚙️ Backend
 
-[![][badge-java]][java-url]
 [![][badge-spring]][spring-url]
-[![][badge-python]][python-url]
-[![][badge-go]][go-url]
+[![][badge-fastapi]][fastapi-url]
+[![][badge-gin]][gin-url]
+[![][badge-jpa]][jpa-url]
+[![][badge-mybatis]][mybatis-url]
+[![][badge-sqlalchemy]][sqlalchemy-url]
 
-#### 🚀 DevOps & CI/CD
+#### 🖥️ Frontend
 
-[![][badge-jenkins]][jenkins-url]
-[![][badge-docker]][docker-url]
+[![][badge-react]][react-url]
+[![][badge-nextjs]][nextjs-url]
+[![][badge-tailwind]][tailwind-url]
+
+#### 🗄️ Data & DevOps
+
 [![][badge-mysql]][mysql-url]
 [![][badge-postgresql]][postgresql-url]
 [![][badge-redis]][redis-url]
-
-#### 🛠️ Tools & Collaboration
-
+[![][badge-flyway]][flyway-url]
+[![][badge-docker]][docker-url]
+[![][badge-kubernetes]][kubernetes-url]
+[![][badge-jenkins]][jenkins-url]
 [![][badge-git]][git-url]
-[![][badge-github]][github-url]
+[![][badge-maven]][maven-url]
 
 ---
 
@@ -101,14 +110,14 @@
 [badge-react]: https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black
 [react-url]: https://react.dev
 
-[badge-vue]: https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white
-[vue-url]: https://vuejs.org
-
 [badge-typescript]: https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white
 [typescript-url]: https://www.typescriptlang.org
 
 [badge-tailwind]: https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white
 [tailwind-url]: https://tailwindcss.com
+
+[badge-nextjs]: https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
+[nextjs-url]: https://nextjs.org
 
 [badge-java]: https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white
 [java-url]: https://www.java.com
@@ -122,11 +131,35 @@
 [badge-go]: https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white
 [go-url]: https://go.dev
 
+[badge-sql]: https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white
+[sql-url]: https://en.wikipedia.org/wiki/SQL
+
+[badge-fastapi]: https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white
+[fastapi-url]: https://fastapi.tiangolo.com
+
+[badge-gin]: https://img.shields.io/badge/Gin-008ECF?style=for-the-badge&logo=go&logoColor=white
+[gin-url]: https://gin-gonic.com
+
+[badge-jpa]: https://img.shields.io/badge/JPA-59666C?style=for-the-badge&logo=hibernate&logoColor=white
+[jpa-url]: https://jakarta.ee/specifications/persistence/
+
+[badge-sqlalchemy]: https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white
+[sqlalchemy-url]: https://www.sqlalchemy.org
+
 [badge-jenkins]: https://img.shields.io/badge/Jenkins-D33833?style=for-the-badge&logo=jenkins&logoColor=white
 [jenkins-url]: https://www.jenkins.io
 
 [badge-docker]: https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white
 [docker-url]: https://www.docker.com
+
+[badge-kubernetes]: https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white
+[kubernetes-url]: https://kubernetes.io
+
+[badge-flyway]: https://img.shields.io/badge/Flyway-CC0200?style=for-the-badge&logo=flyway&logoColor=white
+[flyway-url]: https://documentation.red-gate.com/flyway
+
+[badge-maven]: https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white
+[maven-url]: https://maven.apache.org
 
 [badge-mybatis]: https://img.shields.io/badge/MyBatis%20Plus-FF6B6B?style=for-the-badge&logo=mybatis&logoColor=white
 [mybatis-url]: https://baomidou.com
