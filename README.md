@@ -52,14 +52,27 @@
 
 ### 🚀 About Me
 
-> MSc Computer Science student at University College Dublin with an engineering background and a focus on software development. I enjoy turning complex requirements into reliable APIs, data flows, and maintainable product systems.
+> MSc Computer Science student at University College Dublin with an engineering background (BEng, Beihang University) and hands-on full-stack experience from backend services to frontend apps. I enjoy turning complex requirements into reliable APIs, data flows, and maintainable product systems.
+
+- 🔭 **Software Engineer Intern @ TrueMoment** (03/2026 – 06/2026) — built a low-pressure social platform backend end-to-end in Go / Gin / GORM / MySQL: 9 production modules (auth, dual-camera posts, feeds, social, notifications, search), JWT + Redis token revocation, AliCloud OSS + CDN, and Yunxiao CI/CD with main-branch deployments
 
 - 🖥️ **Backend & full-stack development**: Java / Spring Boot, Go / Gin, Python / FastAPI, and React / Vue / Next.js / TypeScript across production-style projects
 - 🗄️ **Data & service design**: MySQL, PostgreSQL, Redis, JPA, MyBatis Plus, and SQLAlchemy, with attention to API boundaries, data models, and maintainability
 - 🔐 **Authentication & security**: JWT access/refresh flows, token-version logout invalidation, Redis token blacklisting, SMS/email verification, and BCrypt
 - 🤖 **AI & data products**: LangChain + DeepSeek, SSE streaming, scikit-learn prediction services, real-time data ingestion, and visualization
 - 🐳 **Delivery & automation**: Docker, Kubernetes, Jenkins, Maven, and Alibaba Cloud Yunxiao for build, test, image, and deployment pipelines
-- 🧪 **Engineering quality**: unit tests, integration tests, testcontainers-go, Flyway migrations, and systems that are easier to verify and evolve
+- 🧪 **Engineering quality**: unit/integration tests across JUnit 5, Mockito, Testcontainers, pytest, Vitest, and Playwright; coverage gates (JaCoCo / 90%+ backend), Checkstyle, SpotBugs, ESLint, and Flyway migrations for systems that are easier to verify and evolve
+
+---
+
+### 🌟 Featured Projects
+
+| Project | Stack | Highlights |
+|---|---|---|
+| 🎟️ **[EventPulse](https://eventpulse.kaiwen.dev/)** — AI-powered distributed event ticketing | React · Spring Boot · PostgreSQL · Kafka · Redis · K8s · Argo CD | Kafka booking/wallet/cart workflows with Transactional Outbox & idempotent consumers; multi-replica SSE with Redis Pub/Sub; SeaweedFS S3 storage; FastAPI + LangChain AI service |
+| 🛵 **[Firmament Take-Out](https://firmament-admin.kaiwen.dev/)** — food-delivery platform | React 19 + TS · Spring Boot 3 · MyBatis Plus · MySQL | Separate customer/admin SPAs; WebSocket order updates + Redis caching cut latency **57.6%** over 10k requests; 92.5% backend line coverage; Jenkins-on-K8s CI/CD |
+| 🚲 **[Dublin Bikes Assistant](https://bikes.kaiwen.dev)** — bike-sharing & journey planning | React + TS · Spring Boot gateway · FastAPI · PostgreSQL | scikit-learn availability forecasts; LangChain + DeepSeek assistant w/ SSE streaming; journey optimiser with Google Maps routing; 5 service containers on K8s |
+| 🏛️ **[UCDHub](https://ucd-hub.com/)** — campus community platform with AI advising | React + TS · FastAPI · SQLAlchemy · Redis | Tool-calling AI assistant (course/marketplace/rentals); Redis search cache cut **P95 latency 92.1%** (949.7 → 74.8 ms) & boosted throughput 11.95×; contribution-based access model |
 
 ---
 
@@ -82,6 +95,9 @@
 [![][badge-jpa]][jpa-url]
 [![][badge-mybatis]][mybatis-url]
 [![][badge-sqlalchemy]][sqlalchemy-url]
+[![][badge-kafka]][kafka-url]
+[![][badge-gorm]][gorm-url]
+[![][badge-jwt]][jwt-url]
 
 #### 🖥️ Frontend
 
@@ -101,6 +117,22 @@
 [![][badge-jenkins]][jenkins-url]
 [![][badge-git]][git-url]
 [![][badge-maven]][maven-url]
+[![][badge-argocd]][argocd-url]
+[![][badge-alicloud]][alicloud-url]
+[![][badge-githubactions]][githubactions-url]
+
+#### 🧪 Testing & Quality
+
+[![][badge-junit]][junit-url]
+[![][badge-mockito]][mockito-url]
+[![][badge-jacoco]][jacoco-url]
+[![][badge-testcontainers]][testcontainers-url]
+[![][badge-pytest]][pytest-url]
+[![][badge-vitest]][vitest-url]
+[![][badge-playwright]][playwright-url]
+[![][badge-eslint]][eslint-url]
+[![][badge-checkstyle]][checkstyle-url]
+[![][badge-spotbugs]][spotbugs-url]
 
 ---
 
@@ -149,6 +181,54 @@
 
 [badge-sqlalchemy]: https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white
 [sqlalchemy-url]: https://www.sqlalchemy.org
+
+[badge-kafka]: https://img.shields.io/badge/Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white
+[kafka-url]: https://kafka.apache.org
+
+[badge-gorm]: https://img.shields.io/badge/GORM-FF6B6B?style=for-the-badge&logo=gorm&logoColor=white
+[gorm-url]: https://gorm.io
+
+[badge-jwt]: https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white
+[jwt-url]: https://jwt.io
+
+[badge-argocd]: https://img.shields.io/badge/Argo%20CD-EF7B4D?style=for-the-badge&logo=argocd&logoColor=white
+[argocd-url]: https://argo-cd.readthedocs.io
+
+[badge-alicloud]: https://img.shields.io/badge/Aliyun-FF6A00?style=for-the-badge&logo=alibabacloud&logoColor=white
+[alicloud-url]: https://www.alibabacloud.com
+
+[badge-githubactions]: https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white
+[githubactions-url]: https://github.com/features/actions
+
+[badge-junit]: https://img.shields.io/badge/JUnit%205-25A162?style=for-the-badge&logo=junit5&logoColor=white
+[junit-url]: https://junit.org/junit5
+
+[badge-mockito]: https://img.shields.io/badge/Mockito-25A162?style=for-the-badge&logo=mockito&logoColor=white
+[mockito-url]: https://site.mockito.org
+
+[badge-jacoco]: https://img.shields.io/badge/JaCoCo-C21325?style=for-the-badge&logo=jacoco&logoColor=white
+[jacoco-url]: https://www.jacoco.org
+
+[badge-testcontainers]: https://img.shields.io/badge/Testcontainers-4A4A55?style=for-the-badge&logo=testcontainers&logoColor=white
+[testcontainers-url]: https://testcontainers.com
+
+[badge-pytest]: https://img.shields.io/badge/pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white
+[pytest-url]: https://pytest.org
+
+[badge-vitest]: https://img.shields.io/badge/Vitest-6E9F18?style=for-the-badge&logo=vitest&logoColor=white
+[vitest-url]: https://vitest.dev
+
+[badge-playwright]: https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white
+[playwright-url]: https://playwright.dev
+
+[badge-eslint]: https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white
+[eslint-url]: https://eslint.org
+
+[badge-checkstyle]: https://img.shields.io/badge/Checkstyle-0E7C7B?style=for-the-badge&logo=checkstyle&logoColor=white
+[checkstyle-url]: https://checkstyle.sourceforge.io
+
+[badge-spotbugs]: https://img.shields.io/badge/SpotBugs-0A2C4E?style=for-the-badge&logo=spotbugs&logoColor=white
+[spotbugs-url]: https://spotbugs.github.io
 
 [badge-jenkins]: https://img.shields.io/badge/Jenkins-D33833?style=for-the-badge&logo=jenkins&logoColor=white
 [jenkins-url]: https://www.jenkins.io
