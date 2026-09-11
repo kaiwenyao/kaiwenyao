@@ -52,71 +52,27 @@
 
 ### 🚀 About Me
 
-I'm **Kaiwen Yao**, a Master of Computer Science student at **University College Dublin** with an engineering background from **Beihang University**. I build backend services and full-stack applications, with a focus on distributed workflows, reliable APIs, and AI-powered products.
+> MSc Computer Science student at University College Dublin with an engineering background (BEng, Beihang University) and hands-on full-stack experience from backend services to frontend apps. I enjoy turning complex requirements into reliable APIs, data flows, and maintainable product systems.
 
-- 💻 **Backend & full-stack:** Java / Spring Boot, Go / Gin, Python / FastAPI, and React / TypeScript.
-- 🔄 **Distributed systems:** Kafka workflows, Transactional Outbox, idempotent consumers, and cross-instance SSE delivery.
-- 🤖 **AI & data:** tool-calling assistants, LangChain, streaming conversations, and scikit-learn availability forecasts.
-- 🧪 **Quality & delivery:** automated backend/frontend tests, static analysis, containerised CI/CD, and Kubernetes deployments with Argo CD.
-- 🌍 Based in Dublin, Ireland · English (fluent) · Chinese (native).
+- 🔭 **Software Engineer Intern @ TrueMoment** (03/2026 – 06/2026) — built a low-pressure social platform backend end-to-end in Go / Gin / GORM / MySQL: 9 production modules (auth, dual-camera posts, feeds, social, notifications, search), layered Handler → Service → Repository architecture, JWT + Redis token revocation, cursor-paginated feeds, AliCloud OSS + CDN, and Yunxiao CI/CD with automated tests, ACR image publishing, and main-branch deployments
 
-### 🎓 Education
-
-- **University College Dublin** — Master of Computer Science · September 2025 – December 2026 (expected)
-- **Beihang University** — Bachelor of Power Engineering of Flight Vehicles · September 2021 – September 2025
-  - Chinese Government Scholarship (2023) · Academic Excellence Scholarship, 2nd Prize (2024)
-
----
-
-### 💼 Experience
-
-**Software Engineer Intern · TrueMoment** · March – June 2026
-
-Built the backend for a low-pressure social platform where people share spontaneous moments through dual-camera photos.
-
-- Delivered **9 production modules** across authentication, posts, feeds, social interactions, notifications, and search using **Go, Gin, GORM, and MySQL**.
-- Applied a **Handler → Service → Repository** architecture with JWT authentication, Redis token revocation, and cursor-paginated feeds.
-- Integrated **Alibaba Cloud OSS + CDN** for media storage and delivery, and automated unit/integration testing, ACR image publishing, and main-branch deployments through **Yunxiao CI/CD**.
+- 🖥️ **Backend & full-stack development**: Java / Spring Boot, Go / Gin, Python / FastAPI, and React / Vue / Next.js / TypeScript across production-style projects
+- 🗄️ **Data & service design**: MySQL, PostgreSQL, Redis, JPA, MyBatis Plus, and SQLAlchemy, plus Kafka workflows with Transactional Outbox, idempotent consumers, and broker-failure recovery
+- 🔐 **Authentication & security**: JWT authentication and rotation, Redis-backed revocation, separate customer/admin signing keys, UCD email verification, rate limiting, and ownership checks
+- 🤖 **AI & data products**: LangChain + DeepSeek, location-aware tool calling, SSE streaming, persistent chat history, hourly scikit-learn forecasts, and station/weather data ingestion
+- 🐳 **Delivery & automation**: Docker, Kubernetes, Jenkins with ephemeral build Pods, Maven, GitHub Actions, Argo CD GitOps, and Alibaba Cloud Yunxiao for build, test, image, and deployment pipelines
+- 🧪 **Engineering quality**: unit/integration tests across JUnit 5, Mockito, Testcontainers, pytest, Vitest, and Playwright; JaCoCo coverage tracking (Firmament: 92.5% backend line and 90%+ frontend statement coverage), Checkstyle, SpotBugs, ESLint, and Flyway migrations for systems that are easier to verify and evolve
 
 ---
 
 ### 🌟 Featured Projects
 
-#### 🎟️ [EventPulse](https://eventpulse.kaiwen.dev/) — AI-Powered Distributed Event Ticketing
-
-**React · Spring Boot · PostgreSQL · Kafka · Redis · Kubernetes · Argo CD**
-
-- Built independently deployable API/worker services with Kafka-based booking, wallet, and cart workflows, using **Transactional Outbox, idempotent consumers, partition ordering, and broker-failure recovery**.
-- Implemented **multi-replica SSE** through Kubernetes Services and Redis Pub/Sub, with cross-instance event propagation and reconnect backfill.
-- Added **SeaweedFS S3-compatible storage** with soft deletion and asynchronous cleanup, plus a **FastAPI + LangChain** service for event discovery and copywriting with service authentication and rate limiting.
-- Tested distributed workflows with **Testcontainers and Playwright**, enforced Checkstyle / SpotBugs / ESLint quality gates, and delivered GitOps deployments with **Argo CD**.
-
-#### 🛵 [Firmament Take-Out](https://firmament-admin.kaiwen.dev/) — Food Delivery Platform
-
-**React 19 · TypeScript · Spring Boot · MyBatis Plus · MySQL · Redis · Jenkins**
-
-- Built separate customer and merchant applications for mobile-first ordering, menu management, order fulfilment, and ECharts analytics.
-- Secured `/user` and `/admin` APIs with dedicated JWT interceptors and separate signing keys; implemented transaction-safe ordering, controlled state transitions, and automated cancellation of unpaid orders.
-- Combined WebSocket order updates with Redis caching, reducing **average latency by 57.6% across 10,000 requests**.
-- Achieved **92.5% backend line coverage and 90%+ frontend statement coverage**, with Docker CI/CD through Jenkins on Kubernetes and ephemeral Maven/Node Pods.
-
-#### 🚲 [Dublin Bikes Assistant](https://bikes.kaiwen.dev) — Bike-Sharing & Journey Planning
-
-**React · TypeScript · Spring Boot · FastAPI · PostgreSQL · LangChain · scikit-learn**
-
-- Built station/weather ingestion with independent polling, retries, transactional writes, and batched retention cleanup, alongside **hourly availability forecasts**.
-- Developed a **LangChain + DeepSeek** assistant with location-aware tool calling, live station availability, SSE streaming, and persistent chat history.
-- Separated prediction and conversational workloads behind a **Spring Boot gateway** handling authentication, business rules, session access controls, and internal-service access; built a journey optimiser using Google Maps routing.
-- Delivered **five containerised services** with Jenkins/Kubernetes CI/CD and automated quality gates using JUnit 5, Mockito, MockMvc, Testcontainers, pytest, and frontend tests.
-
-#### 🏛️ [UCDHub](https://ucd-hub.com/) — Campus Community & AI Advising
-
-**React · TypeScript · FastAPI · SQLAlchemy · Redis · Alibaba Cloud OSS**
-
-- Built review attachments with direct OSS uploads, server-side validation, and time-limited presigned downloads, plus a **tool-calling AI assistant** for courses, second-hand listings, and rentals.
-- Optimised search with Redis caching: **P95 latency fell 92.1% (949.7 → 74.8 ms)** and **throughput increased 11.95×** in matched benchmarks with **10 concurrent clients**.
-- Implemented contribution-based access, UCD email verification, rotating JWTs, Redis-backed revocation, rate limiting, and ownership checks.
-- Delivered Jenkins/Kubernetes CI/CD with ephemeral Node/Python Pods and tests using **pytest, Testcontainers, Vitest, and React Testing Library**.
+| Project | Stack | Highlights |
+|---|---|---|
+| 🎟️ **[EventPulse](https://eventpulse.kaiwen.dev/)** — AI-powered distributed event ticketing | React · Spring Boot · PostgreSQL · Kafka · Redis · K8s · Argo CD | Independent API/worker services; Kafka workflows with Transactional Outbox, idempotency & broker-failure recovery; multi-replica SSE + reconnect backfill; SeaweedFS S3 storage; FastAPI + LangChain AI; Testcontainers/Playwright & Argo CD GitOps |
+| 🛵 **[Firmament Take-Out](https://firmament-admin.kaiwen.dev/)** — food-delivery platform | React 19 + TS · Spring Boot 3 · MyBatis Plus · MySQL | Separate customer/admin SPAs & JWT signing keys; transaction-safe ordering; WebSocket updates + Redis caching cut average latency **57.6%** over 10k requests; **92.5% backend line / 90%+ frontend statement coverage**; Jenkins-on-K8s CI/CD |
+| 🚲 **[Dublin Bikes Assistant](https://bikes.kaiwen.dev)** — bike-sharing & journey planning | React + TS · Spring Boot gateway · FastAPI · PostgreSQL | Resilient station/weather ingestion & hourly scikit-learn forecasts; location-aware LangChain + DeepSeek tool calling with SSE; separate prediction/chat services behind an authenticated gateway; Google Maps journey optimiser; 5 containers on K8s |
+| 🏛️ **[UCDHub](https://ucd-hub.com/)** — campus community platform with AI advising | React + TS · FastAPI · SQLAlchemy · Redis | OSS review attachments with presigned downloads; tool-calling AI for courses/marketplace/rentals; Redis caching cut **P95 latency 92.1%** (949.7 → 74.8 ms) & boosted throughput **11.95×** at 10 concurrent clients; contribution-based access & rotating JWTs |
 
 ---
 
