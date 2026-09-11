@@ -54,8 +54,6 @@
 
 > MSc Computer Science student at University College Dublin with an engineering background (BEng, Beihang University) and hands-on full-stack experience from backend services to frontend apps. I enjoy turning complex requirements into reliable APIs, data flows, and maintainable product systems.
 
-- 🔭 **Software Engineer Intern @ TrueMoment** (03/2026 – 06/2026) — built a low-pressure social platform backend end-to-end in Go / Gin / GORM / MySQL: 9 production modules (auth, dual-camera posts, feeds, social, notifications, search), layered Handler → Service → Repository architecture, JWT + Redis token revocation, cursor-paginated feeds, AliCloud OSS + CDN, and Yunxiao CI/CD with automated tests, ACR image publishing, and main-branch deployments
-
 - 🖥️ **Backend & full-stack development**: Java / Spring Boot, Go / Gin, Python / FastAPI, and React / Vue / Next.js / TypeScript across production-style projects
 - 🗄️ **Data & service design**: MySQL, PostgreSQL, Redis, JPA, MyBatis Plus, and SQLAlchemy, plus Kafka workflows with Transactional Outbox, idempotent consumers, and broker-failure recovery
 - 🔐 **Authentication & security**: JWT authentication and rotation, Redis-backed revocation, separate customer/admin signing keys, UCD email verification, rate limiting, and ownership checks
