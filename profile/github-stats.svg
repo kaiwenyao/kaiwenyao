@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Kaiwen Yao's GitHub Stats, Rank: A-</title>
-        <desc id="descId">Total Stars Earned: 7, Total Commits  : 3173, Total PRs: 668, Total Issues: 61, Contributed to (last year): 25</desc>
+        <desc id="descId">Total Stars Earned: 7, Total Commits  : 3178, Total PRs: 671, Total Issues: 61, Contributed to (last year): 25</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 93.82196438425888;
+        stroke-dashoffset: 93.8056528782972;
       }
     }
   
@@ -192,7 +192,7 @@
         x="219.01"
         y="12.5"
         data-testid="prs"
-      >668</text>
+      >671</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
